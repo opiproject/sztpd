@@ -8,6 +8,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends gettext libsqli
 COPY requirements.txt /tmp/requirements.txt
 RUN pip install --no-cache-dir --requirement /tmp/requirements.txt
 
+ENV SZTPD_INIT_PORT=8080 SZTPD_INIT_MODE=1 SZTPD_ACCEPT_CONTRACT="Yes"
 ENTRYPOINT ["sztpd"]
 CMD ["sqlite:///:memory:"]
 HEALTHCHECK CMD curl --fail -H Accept:application/yang-data+json http://127.0.0.1:8080/.well-known/host-meta || exit 1
