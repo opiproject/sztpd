@@ -27,6 +27,6 @@ six==1.16.0
 SQLAlchemy==2.0.5.post1
 SQLAlchemy-Utils==0.40.0
 sztpd==0.0.15
-urllib3==1.26.14
+urllib3==1.26.15
 yangson==1.4.16
 yarl==1.8.2
