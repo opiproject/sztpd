@@ -5,6 +5,8 @@
 [![License](https://img.shields.io/github/license/opiproject/sztpd?style=flat-square&color=blue&label=License)](https://github.com/opiproject/sztpd/blob/master/LICENSE)
 [![Pulls](https://img.shields.io/docker/pulls/opiproject/sztpd.svg?logo=docker&style=flat&label=Pulls)](https://hub.docker.com/r/opiproject/sztpd)
 [![Last Release](https://img.shields.io/github/v/release/opiproject/sztpd?label=Latest&style=flat-square&logo=go)](https://github.com/opiproject/sztpd/releases)
+[![GitHub stars](https://img.shields.io/github/stars/opiproject/sztpd.svg?style=flat-square&label=github%20stars)](https://github.com/opiproject/sztpd)
+[![GitHub Contributors](https://img.shields.io/github/contributors/opiproject/sztpd.svg?style=flat-square)](https://github.com/opiproject/sztpd/graphs/contributors)
 
 SZTPD implements the [Bootstrap Server](https://tools.ietf.org/html/rfc8572#section-4.4) defined in [RFC 8572: Secure Zero Touch Provisioning (SZTP)](https://tools.ietf.org/html/rfc8572).
 
