@@ -1,7 +1,7 @@
 # SPDX-License-Identifier: Apache-2.0
 # Copyright (c) 2022-2023 Dell Inc, or its subsidiaries.
 
-FROM docker.io/library/python:3.11.2-slim
+FROM docker.io/library/python:3.11.3-slim
 
 RUN apt-get update && apt-get install -y --no-install-recommends gettext libsqlite3-dev curl gcc && rm -rf /var/lib/apt/lists/*
 
