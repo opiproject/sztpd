@@ -23,7 +23,7 @@ services:
       timeout: 10s
 
   opi-test:
-    image: docker.io/curlimages/curl:8.00.1
+    image: docker.io/curlimages/curl:8.1.0
     depends_on:
       bootstrap:
         condition: service_healthy
