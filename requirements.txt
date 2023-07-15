@@ -10,7 +10,7 @@ cffi==1.15.1
 charset-normalizer==3.2.0
 cryptography==41.0.1
 fifolock==0.0.20
-frozenlist==1.3.3
+frozenlist==1.4.0
 greenlet==2.0.2
 idna==3.4
 multidict==6.0.4
