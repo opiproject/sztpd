@@ -11,7 +11,7 @@ charset-normalizer==3.3.1
 cryptography==41.0.4
 fifolock==0.0.20
 frozenlist==1.4.0
-greenlet==3.0.0
+greenlet==3.0.1
 idna==3.4
 multidict==6.0.4
 oscrypto==1.3.0
